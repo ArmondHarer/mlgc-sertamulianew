@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV MODEL_URL=https://storage.googleapis.com/dicoding-mlgc-armondharer/model-in-prod/model.json
+ENV MODEL_URL=https://storage.googleapis.com/bucket-mlgc-armondharer/model.json
 
 CMD ["npm", "start"]
